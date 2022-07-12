@@ -1,0 +1,6 @@
+framework module Pods_DirectLinkCos {
+  umbrella header "Pods-DirectLinkCos-umbrella.h"
+
+  export *
+  module * { export * }
+}
