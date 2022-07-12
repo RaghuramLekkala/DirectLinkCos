@@ -9,5 +9,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/RaghuramLekkala/DirectLinkCos.git", :tag => "#{spec.version}" }
   spec.source_files  = "DirectLinkCos/**/*.{swift}"
+  spec.framework  = "UIKit"
+  spec.dependency 'IQKeyboardManagerSwift', '~> 6.5.10'
   spec.swift_version = "5.3"
 end

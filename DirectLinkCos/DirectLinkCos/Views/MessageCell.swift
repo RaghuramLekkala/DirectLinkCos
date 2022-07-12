@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import MessageKit
 
 class MessageCell: UITableViewCell, UICollectionViewDelegateFlowLayout {
     static let identifier = "MessageCell"

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import MessageKit
 
 
 protocol AlternativeViewControllerDelegate:class {

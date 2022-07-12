@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import MessageKit
 
 public struct Sender: SenderType {
     public let senderId: String

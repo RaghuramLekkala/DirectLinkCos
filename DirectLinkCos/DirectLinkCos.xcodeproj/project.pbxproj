@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89AB7032287D987D00CAFC31 /* SenderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB7031287D987D00CAFC31 /* SenderType.swift */; };
+		89AB7035287D98B500CAFC31 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB7034287D98B500CAFC31 /* MessageType.swift */; };
+		89AB7038287D991100CAFC31 /* MessageKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB7037287D991100CAFC31 /* MessageKind.swift */; };
 		89FBCB32287D8FC00030DFD7 /* DirectLinkCos.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FBCB30287D8FC00030DFD7 /* DirectLinkCos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89FBCB54287D90380030DFD7 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FBCB3A287D90370030DFD7 /* SocketIOManager.swift */; };
 		89FBCB55287D90380030DFD7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FBCB3B287D90370030DFD7 /* Message.swift */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		3D80F9AC93E51CC1B7BB429F /* Pods-DirectLinkCos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectLinkCos.debug.xcconfig"; path = "Target Support Files/Pods-DirectLinkCos/Pods-DirectLinkCos.debug.xcconfig"; sourceTree = "<group>"; };
+		89AB7031287D987D00CAFC31 /* SenderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderType.swift; sourceTree = "<group>"; };
+		89AB7034287D98B500CAFC31 /* MessageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageType.swift; sourceTree = "<group>"; };
+		89AB7037287D991100CAFC31 /* MessageKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKind.swift; sourceTree = "<group>"; };
 		89FBCB2D287D8FC00030DFD7 /* DirectLinkCos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DirectLinkCos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FBCB30287D8FC00030DFD7 /* DirectLinkCos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectLinkCos.h; sourceTree = "<group>"; };
 		89FBCB31287D8FC00030DFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +125,9 @@
 				89FBCB3D287D90370030DFD7 /* ApiManager.swift */,
 				89FBCB3E287D90370030DFD7 /* APIDataTypes.swift */,
 				89FBCB3F287D90370030DFD7 /* MySocketManager.swift */,
+				89AB7031287D987D00CAFC31 /* SenderType.swift */,
+				89AB7034287D98B500CAFC31 /* MessageType.swift */,
+				89AB7037287D991100CAFC31 /* MessageKind.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,7 +175,6 @@
 				3D80F9AC93E51CC1B7BB429F /* Pods-DirectLinkCos.debug.xcconfig */,
 				D9F1A5C181ABD0C4680B82D1 /* Pods-DirectLinkCos.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -286,9 +294,11 @@
 				89FBCB60287D90380030DFD7 /* QuickReplyTableViewCell.swift in Sources */,
 				89FBCB56287D90380030DFD7 /* Networking.swift in Sources */,
 				89FBCB59287D90380030DFD7 /* MySocketManager.swift in Sources */,
+				89AB7032287D987D00CAFC31 /* SenderType.swift in Sources */,
 				89FBCB54287D90380030DFD7 /* SocketIOManager.swift in Sources */,
 				89FBCB69287D90380030DFD7 /* HomeViewController.swift in Sources */,
 				89FBCB65287D90380030DFD7 /* MessageCell.swift in Sources */,
+				89AB7038287D991100CAFC31 /* MessageKind.swift in Sources */,
 				89FBCB5A287D90380030DFD7 /* MyCell.swift in Sources */,
 				89FBCB6A287D90380030DFD7 /* AlternativeViewController.swift in Sources */,
 				89FBCB67287D90380030DFD7 /* extensions.swift in Sources */,
@@ -296,6 +306,7 @@
 				89FBCB5B287D90380030DFD7 /* MyCellTableViewCell.swift in Sources */,
 				89FBCB55287D90380030DFD7 /* Message.swift in Sources */,
 				89FBCB68287D90380030DFD7 /* Constants.swift in Sources */,
+				89AB7035287D98B500CAFC31 /* MessageType.swift in Sources */,
 				89FBCB5C287D90380030DFD7 /* TextCollectionViewCell.swift in Sources */,
 				89FBCB58287D90380030DFD7 /* APIDataTypes.swift in Sources */,
 			);
